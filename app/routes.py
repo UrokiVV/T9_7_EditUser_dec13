@@ -234,7 +234,7 @@ def edit_profile():
 
     else:
         print('edit_profile(): method = GET ')
-        message = "Введите данные для изменений. Все поля должны быть запонены"
+        message = "Введите данные для изменений. Все поля должны быть запонены!"
 
     print(message)
     print(f'edit_profile() ==> edit_profile.html : user_id={user_id}, username={user.username}, user.email={user.email}')
